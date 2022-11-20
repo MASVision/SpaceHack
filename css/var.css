@@ -1,0 +1,18 @@
+:root{
+    /* colors */
+    --clr-white-1: #E9E9E9;
+    --clr-green-2: #47B98A;
+    --clr-black-1: #1D1D1D;
+    --clr-black-2: #222222;
+    --clr-grey-1: #444444;
+    --clr-grey-2: #666666;
+
+    /* fonts */
+    --ff-frn: 'Fraunces', serif;
+    --ff-brlw: 'Barlow', sans-serif;
+    --ff-rbto: 'Roboto', sans-serif;
+
+    /* transition */
+    --t-1: 100ms all linear;
+    --t-2: 200ms all ease-in-out;
+}

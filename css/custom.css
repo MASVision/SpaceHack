@@ -1,0 +1,36 @@
+.capitalize{text-transform: capitalize;}
+.uppercase{text-transform: uppercase;}
+.frn{font-family: var(--ff-frn);}
+.brlw{font-family: var(--ff-brlw);}
+.italic{font-style: italic;}
+.pnten{pointer-events: none}
+.ls-1{letter-spacing: 2px;}
+.ws-1{word-spacing:4px;line-height: 1.4;}
+.ls-2{letter-spacing: 0.25rem;}
+.ls-3{letter-spacing: 0.5rem;}
+.t-left{text-align: left;}
+.t-right{text-align: right;}
+
+/* button */
+
+/* btn-1 */
+.btn-1{border: 1px var(--clr-white-1) solid;}
+
+.btn-1:hover{
+    background-color: var(--clr-white-1);
+    border: none;
+}
+
+.btn-1:hover div{color: var(--clr-black-1);}
+
+.nav-sticky{position: fixed;}
+
+/* title */
+
+/* title-2 */
+.title-2{
+    font-family: var(--ff-frn);
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
