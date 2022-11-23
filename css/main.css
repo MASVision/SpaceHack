@@ -234,6 +234,9 @@ nav{
     height: fit-content;
     align-items: center;
 }
+.mi-f-container, .mi-right{
+    overflow: visible;
+}
 .mi-mid-line{
     width: 2px;
     height: 2rem;
@@ -248,6 +251,33 @@ nav{
     width: 80%;
     margin: 0 auto;
 }
+
+.tool-tip-container{
+    position: relative; 
+    overflow: visible;
+    cursor: pointer;
+}
+
+.tool-tip{
+    visibility: hidden;
+    width: 120px;
+    /* background-color: var(--clr-black-1); */
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1100;
+    /* width: 120px; */
+    bottom: 140%;
+    left: 50%;
+    /* margin-left: -60px; */
+    font-size: 0.8rem;
+}
+.tool-tip-container:hover .tool-tip {
+    visibility: visible;
+}
+
 
 /* footer */
 footer{
